@@ -51,6 +51,9 @@ header li {
 }
 .right {
   background-image: url(images/Circle\ design.svg);
+  background-position: center;
+  background-size: 410px 410px;
+  background-repeat: no-repeat;
   margin-right: 50px;
   transition: 0.5s ease-out;
 }
@@ -282,6 +285,7 @@ nav {
   }
   .right {
     margin: 20px 10px;
+    background-size: 165px 165px;
   }
   .right img {
     height: 160px;
