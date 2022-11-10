@@ -37,7 +37,7 @@ header li {
   margin: 0 20px;
 }
 
-.full-nav {
+.full-menu {
   display: flex;
 }
 .sec-1 {
@@ -209,7 +209,6 @@ article {
 }
 nav {
   height: 260px;
-
   background-color: #0a0826;
 }
 .main {
@@ -261,7 +260,7 @@ nav {
     text-align: center;
     margin: 0px;
   }
-  .full-nav {
+  .full-menu {
     display: none;
   }
 
