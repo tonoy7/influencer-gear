@@ -50,16 +50,13 @@ header li {
   margin-right: 60px;
 }
 .right {
+  background-image: url(images/Circle\ design.svg);
   margin-right: 50px;
-  border: 3px solid rgba(0, 0, 0, 0);
-  border-radius: 300px;
   transition: 0.5s ease-out;
 }
 .right:hover {
   transform: scale(1.1);
   z-index: 2;
-  border: 3px solid rgba(0, 0, 0, 0.315);
-  border-radius: 300px;
 }
 .banner-title {
   font-size: 50px;
