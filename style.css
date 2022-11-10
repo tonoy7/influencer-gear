@@ -210,7 +210,7 @@ article {
   margin-top: 20px;
   width: 500px;
 }
-nav {
+footer {
   height: 260px;
   background-color: #0a0826;
 }
@@ -223,12 +223,12 @@ nav {
   justify-content: center;
 }
 .copyright {
-  font-size: 14px;
+  font-size: 12px;
   margin: 10px 0;
 }
 .social-icons {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .social-icons a {
   text-decoration: none;
@@ -236,7 +236,7 @@ nav {
 }
 .fa-brands {
   width: 38px;
-  margin: 0 10px;
+  margin: 0 6px;
   padding: 10px;
   background-color: rgba(128, 128, 128, 0.253);
   border: none;
@@ -309,5 +309,59 @@ nav {
   }
   .see-more {
     justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    margin: 40px;
+    width: 90%;
+    justify-content: space-between;
+  }
+  header .site-title {
+    text-align: center;
+    margin: 0px;
+  }
+  header li {
+    margin: 0 10px;
+  }
+  .sec-1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  .left {
+    text-align: center;
+    order: 2;
+    margin: 20px 40px;
+  }
+  .right {
+    margin: 20px 10px;
+    background-size: 165px 165px;
+  }
+  .right img {
+    height: 160px;
+    width: 170px;
+  }
+  .banner-title {
+    text-align: center;
+  }
+  article {
+    text-align: center;
+    width: 100%;
+    margin: 40px 0;
+    padding: 0;
+  }
+  .sec-2 {
+    margin: 5px;
+  }
+  .boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .see-more {
+    justify-content: center;
+  }
+  footer {
+    width: 100%;
   }
 }
