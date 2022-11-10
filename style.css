@@ -306,6 +306,7 @@ footer {
   }
   .boxes {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0;
   }
   .see-more {
     justify-content: center;
