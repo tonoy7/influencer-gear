@@ -22,15 +22,17 @@ header {
 .site-title {
   font-size: 24px;
   color: #3a3a3a;
+  font-weight: bold;
 }
 
 header > ul {
   display: flex;
   list-style: none;
-  font-size: 16px;
-  font-weight: bold;
 }
 header li {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 550;
   margin: 0 20px;
 }
 
@@ -38,36 +40,40 @@ header li {
   display: flex;
 }
 .sec-1 {
-  margin: 0 80px;
+  margin: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .left {
   width: 100%;
+  margin-right: 60px;
 }
 .right {
+  margin-right: 50px;
   border: 3px solid rgba(0, 0, 0, 0);
   border-radius: 300px;
   transition: 0.5s ease-out;
 }
 .right:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: 2;
   border: 3px solid rgba(0, 0, 0, 0.315);
   border-radius: 300px;
 }
 .banner-title {
-  font-size: 52px;
+  font-size: 50px;
   font-weight: bold;
   text-align: left;
   line-height: 70px;
   color: #3a3a3a;
 }
 article {
-  color: #3a3a3a;
+  color: #3a3a3abd;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
+  margin: 30px 0;
+  padding-right: 100px;
   text-align: left;
   width: 80%;
 }
@@ -77,8 +83,8 @@ article {
   border-radius: 40px;
   padding: 10px 20px;
   color: aliceblue;
-  font-size: 16px;
-  margin-top: 20px;
+  font-size: 18px;
+
   transition: 0.2s ease-out;
 }
 .button:hover {
@@ -290,7 +296,8 @@ nav {
   article {
     text-align: center;
     width: 100%;
-    margin: 10px 5px;
+    margin: 40px 0;
+    padding: 0;
   }
 
   .sec-2 {
